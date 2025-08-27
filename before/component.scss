@@ -1,0 +1,29 @@
+.btn-primary {
+    background: #777777;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0.5em 1em;
+    display: inline-block;
+    border: 0;
+
+    &.btn-large .txt {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    &.btn-medium .txt {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .txt {
+        color: #eeeeee;
+        font-family: 'Pretendard', sans-serif;
+        font-style: normal;
+        white-space: nowrap;
+    }
+}
